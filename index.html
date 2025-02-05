@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Tracker & Expense Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Salary Tracker & Expense Manager</h1>
+
+    <section id="salary-section">
+        <h2>Set Your Salary</h2>
+        <input type="number" id="salaryInput" placeholder="Monthly Salary" required />
+        <button id="setSalary">Set Salary</button>
+    </section>
+
+    <section id="expense-tracker">
+        <h2>Track an Expense</h2>
+        <input type="text" id="expenseName" placeholder="Expense Name" required />
+        <input type="number" id="expenseAmount" placeholder="Amount" required />
+        <button id="addExpense">Add Expense</button>
+    </section>
+
+    <h2>Summary</h2>
+    <div id="summary"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
