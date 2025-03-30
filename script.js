@@ -50,10 +50,10 @@ function displaySummary() {
     const summaryDiv = document.getElementById('summary');
     
     summaryDiv.innerHTML = `
-        <p>Monthly Salary: $${salary.toFixed(2)}</p>
-        <p>Total Expenses: $${totalExpenses.toFixed(2)}</p>
-        <p>Remaining Balance: $${remainingBalance}</p>
-        <h3>Expenses:</h3><ul>${expenses.map(expense => `<li>${expense.expenseName}: $${expense.expenseAmount}</li>`).join('')}</ul>
+        <p>Monthly Salary: ₺${salary.toFixed(2)}</p>
+        <p>Total Expenses: ₺${totalExpenses.toFixed(2)}</p>
+        <p>Remaining Balance: ₺${remainingBalance}</p>
+        <h3>Expenses:</h3><ul>${expenses.map(expense => `<li>${expense.expenseName}: ₺${expense.expenseAmount}</li>`).join('')}</ul>
     `;
 }
 
